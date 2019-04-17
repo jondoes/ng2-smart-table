@@ -12,7 +12,7 @@ import { DefaultFilter } from './default-filter';
       [formControl]="inputControl"
       class="form-control"
       type="text"
-      placeholder="{{ column.title }}"/>
+      placeholder="Search"/>
   `,
 })
 export class InputFilterComponent extends DefaultFilter implements OnInit, OnChanges {
